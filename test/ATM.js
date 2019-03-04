@@ -1,7 +1,7 @@
 const chai = require('chai');
 chai.should();
 const itParam = require('mocha-param');
-var sinon = require('sinon');
+const sinon = require('sinon');
 
 const Account = require("../app/Account");
 const ATM = require("../app/ATM");
